@@ -14,7 +14,7 @@ function App() {
     }
 
     const apiKey = "46f36e4e927d47bab67172601253004";
-    const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=yes`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=yes`;
 
     try {
       const res = await fetch(url);
